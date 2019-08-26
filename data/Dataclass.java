@@ -10,6 +10,8 @@ public class Dataclass {
 		int input3;
 		char input4;
 //		System.out.println("Local Data: input1:"+input3+" "+"input2:"+input4);
+		
+//		local variables which are not initialized does not get any default values.
 	}
 
 }

@@ -8,6 +8,7 @@ public class Singletonclass {
 	}
 	
 	public static Singletonclass method(String s) {
+		str=s;//static methods can only access static variables;
 		Singletonclass sc=new Singletonclass(s);
 		return sc;
 	}
